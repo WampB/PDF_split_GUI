@@ -1,5 +1,7 @@
 # PDF_tools
-<b>CSDN上看到的一个PDF分割的GUI脚本，使用简单，在此留存和分享。</b><br>
+<h>搜集/编写的PDF小工具，部分有GUI</h>
+<h1 id="tool1">TOOL1：分割PDF——PDF_split_GUI.py</h1>
+<h2 id="mentory1">CSDN上看到的一个PDF分割的GUI脚本，使用简单，在此留存和分享。</h2>
 <div>
   <p>代码来源：（有略微的非实质性的修改）</p>
   <a href="https://blog.csdn.net/u013185349/article/details/126383855">Python脚本分割PDF文件</a>
