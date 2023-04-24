@@ -13,8 +13,8 @@
     <p>出现这个问题是文件页码超出范围但由于各种原因可以点击执行分割命令，但是无法完成分割操作并报错AssertionError，根据报错信息，只要找到错误来源文件，将assert start>=last_end这一条注释掉即可，为了防止出现其他问题，完成分割后应当恢复这一条命令。</p>
   </span>
 <div>
-<h1 id="tool2">TOOL2：将一个文件夹中的[特定的]图片合称为PDF——PDF_combine_GUI.py</h1>
-<h2 id="mentory2">按需求将图片[集合]转为PDF，更方便保存和传输。</h2>
+<h1 id="tool2">TOOL2：图片合成PDF——PDF_combine_GUI.py</h1>
+<h2 id="mentory2">按需求将一个文件夹中的图片[集合]转为PDF，更方便保存和传输。</h2>
 <div>
   <p>代码来源：自主编写。</p>
 </div>
