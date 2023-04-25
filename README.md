@@ -6,7 +6,7 @@
   <p>代码来源：<a href="https://blog.csdn.net/u013185349/article/details/126383855">Python脚本分割PDF文件</a>（有略微的非实质性的修改）</p>
 </div>
 <div id="tips1">
-  <h>SOME TIPS:</h>
+  <p>SOME TIPS:</p>
   <span>
     <p>TIP1--</p>
     <img src="AssertionError.jpg">
