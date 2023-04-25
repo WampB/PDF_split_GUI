@@ -1,15 +1,15 @@
 import os.path
-from PyPDF2 import PdfFileReader, PdfFileWriter
+from PyPDF2 import PdfReader, PdfWriter
 import tkinter as tk
 from tkinter import filedialog as fd
 import tkinter.messagebox
 
 # the operation of splitting
 def split_pdf(pdf_i, start, end):
-    pdf = PdfFileReader(pdf_i)
-    pdf_wt = PdfFileWriter()
+    pdf = PdfReader(pdf_i)
+    pdf_wt = PdfWriter()
     for i in range(start-1, end):
-        pdf_wt.addPage(pdf.getPage(i))
+        pdf_wt.add_page(pdf.pages[i])
     pdf_path, pdf_name = os.path.split(pdf_in.get())
     pdf_name, pdf_ext = os.path.splitext(pdf_name)
     split_name = pdf_out.get() + '\\' + pdf_name + '(P%d—P%d).pdf'%(start,end)
@@ -23,7 +23,7 @@ def select_pdf():
     pdf_selected = fd.askopenfilename(filetypes=file_types)
     if pdf_selected != '':
         pdf_in.set(pdf_selected)
-        pdf = PdfFileReader(pdf_selected)
+        pdf = PdfReader(pdf_selected)
         pages = len(pdf.pages)
         pdf_pages.set('③输入要分割的页码：(页码范围1-%d)'%pages)
         button_out['state'] = 'normal'
@@ -42,7 +42,7 @@ def pdf_split():
         page_out_in = pdf_out2.get().replace('，', ',')
         page_split = page_out_in.split(',')
         pdf_to_be_split = pdf_in.get()
-        pdf = PdfFileReader(pdf_to_be_split)
+        pdf = PdfReader(pdf_to_be_split)
         pages = len(pdf.pages)
         flag_successed =0
         flag_failed =[]
