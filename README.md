@@ -12,7 +12,7 @@
     <img src="AssertionError.jpg">
     <p>出现这个问题是文件页码超出范围但由于各种原因可以点击执行分割命令，但是无法完成分割操作并报错AssertionError，根据报错信息，只要找到错误来源文件，将assert start>=last_end这一条注释掉即可，为了防止出现其他问题，完成分割后应当恢复这一条命令。</p>
     <p>TIP2--</p>
-    <p>我后来看了一下PyPdf2这个库有更新了，一些方法的名称有了变化，所以进行了一点点修改。</p>
+    <p>我后来看了一下PyPDF2这个库有更新了，一些方法的名称有了变化，所以进行了一点点修改。</p>
   </span>
 <div>
 <h1 id="tool2">TOOL2：图片合并成PDF——pictures_to_PDF_GUI.py</h1>
