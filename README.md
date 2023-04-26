@@ -16,7 +16,7 @@
   </span>
 <div>
 <h1 id="tool2">TOOL2：图片合并成PDF——pictures_to_PDF_GUI.py</h1>
-<h2 id="mentory2">按需求将图片[集合]转为PDF，更方便保存和传输。</h2>
+<h2 id="mentory2">按需求将图片[集合]转为PDF，更方便浏览、保存和传输。</h2>
 <div>
   <p>代码来源：自主编写。</p>
 </div>
@@ -28,6 +28,6 @@
     <p>TIP2--</p>
     <p>一般合成是要考虑到图片顺序的，这里使用的是默认顺序，合成的时候最好将图片名称改为按顺序的如1.jpg、2.jpg等，不然可能无法达到理想效果。</p>
     <p>TIP3--</p>
-    <p>设计的时候用jpg格式的图片为例的，其他的等我多看看再补充。</p>
+    <p>支持.jpg/.jpeg/.png/.bmp/.ppm/.gif/.tiff格式的图片，其他格式可以在select()函数的lst变量中补充。</p>
   </span>
 </div>
