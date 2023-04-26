@@ -6,7 +6,16 @@ from PIL import Image
 # step1: select the files to be processed(default order)
 def select():
     global pic_s
-    pic_s=fd.askopenfilenames(filetypes=[('图片文件','.jpg')])
+    lst=[
+        ('图片文件',".jpg"),
+        ('图片文件',".png"),
+        ('图片文件',".jpeg"),
+        ('图片文件',".bmp"),
+        ('图片文件',".gif"),
+        ('图片文件',".ppm"),
+        ('图片文件',".tiff")
+    ]
+    pic_s=fd.askopenfilenames(filetypes=lst)
     if pic_s!='':
         pic_in.set(pic_s)
         button_out['state']='normal'
