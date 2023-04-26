@@ -4,6 +4,7 @@
 <h2 id="mentory1">CSDN上看到的一个PDF分割的GUI脚本，使用简单，在此留存和分享。</h2>
 <div>
   <p>代码来源：<a href="https://blog.csdn.net/u013185349/article/details/126383855">Python脚本分割PDF文件</a>（有略微的非实质性的修改）</p>
+  <p>需要安装的库：PyPDF2 [pip install pypdf2]</p>
 </div>
 <div id="tips1">
   <p>SOME TIPS:</p>
@@ -19,6 +20,7 @@
 <h2 id="mentory2">按需求将图片[集合]转为PDF（例如将一堆扫描件或照片放在一块儿），更方便浏览、保存和传输。</h2>
 <div>
   <p>代码来源：自主编写。</p>
+  <p>需要安装的库：Pillow [pip install pillow]</p>
 </div>
 <div id="tips2">
   <p>SOME TIPS:</p>
