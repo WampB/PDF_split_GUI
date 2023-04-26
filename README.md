@@ -16,7 +16,7 @@
   </span>
 <div>
 <h1 id="tool2">TOOL2：图片合并成PDF——pictures_to_PDF_GUI.py</h1>
-<h2 id="mentory2">按需求将图片[集合]转为PDF，更方便浏览、保存和传输。</h2>
+<h2 id="mentory2">按需求将图片[集合]转为PDF（例如将一堆扫描件或照片放在一块儿），更方便浏览、保存和传输。</h2>
 <div>
   <p>代码来源：自主编写。</p>
 </div>
