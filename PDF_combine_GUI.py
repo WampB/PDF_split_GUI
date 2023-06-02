@@ -23,7 +23,7 @@ def select_out():
 # step3: write the pictures into a pdf
 def combine():
     file_merger = PdfMerger(strict=False)
-    path=path_save+"combine.pdf"
+    path=path_save+"/combine_result.pdf"
     for pdf in file_s:
         file_merger.append(PdfReader(pdf), 'tag')
     file_merger.add_metadata(
